@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #e4f9f5;
+}
+/*-----------------
+header start
+----------------*/
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-color: white;
+    border-radius: 50%;
+    float: left;
+}
+.profile-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5{
+    color: #17a2b8;
+}
+.profile-contact{
+    float: right;
+    padding: 25px;
+}
+.profile-contact a{
+    text-decoration: none;
+    color: #17a2b8;
+    font-weight: bold;
+}
+.profile-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+#div-clear{
+    clear:both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*-----------------
+main section start
+----------------*/
+
+/*-----------------
+personal section start
+----------------*/
+.personal-section{}
+.content{}
+
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: right;
+    width: 65%;
+    /*color: #17a2b8;*/
+}
+#common-hr{
+    border: 2px solid black;
+    border-bottom: 0px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+/*-----------------
+education section start
+----------------*/
+.left-edu-template{
+    width: 45%;
+    float: left;
+}
+.left-edu-template a{
+    text-decoration: none;
+    color: black;
+}
+.left-edu-template a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.right-edu-template{
+    width: 45%;
+    float: right;
+}
+.right-edu-template a{
+    text-decoration: none;
+    color: black;
+}
+.right-edu-template a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+
+/*-----------------
+Refference start
+----------------*/
+
+.left-reff-template{
+    width: 45%;
+    float: left;
+}
+.left-reff-template a{
+    text-decoration: none;
+    color: black;
+}
+.left-reff-template a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.right-reff-template{
+    width: 45%;
+    float: right;
+}
+.right-reff-template a{
+    text-decoration: none;
+    color: black;
+}
+.right-reff-template a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+
+/*-----------------
+footer start
+----------------*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 25px;
+}
